@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    background-color: whitesmoke;
+
+    .logo {
+
+
+        img {
+            width: 50%;
+            height: 50px;
+            object-fit: contain;
+        }
+    }
+
+    ul {
+        padding-left: 0;
+
+        li {
+            margin: 5px;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                transition: 1s;
+
+                &:hover {
+                    color: #e12503;
+                }
+
+                sup {
+                    position: relative;
+                    top: -12px;
+                    right: 5px;
+                }
+            }
+
+            select {
+                border: none;
+                background-color: red;
+                width: 70px;
+                height: 35px;
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#navbars {
+    width: 100%;
+    background-color: #e12503;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 60px;
+
+    .navbar {
+        height: 45px;
+
+        .pages {
+            height: 30px;
+            margin: 0px auto;
+        }
+
+        ul {
+            padding-left: 0px;
+
+            li {
+                list-style: none;
+                font-size: 14px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    transition: 1s;
+
+                    i {
+                        font-size: 12px;
+                        position: relative;
+                        bottom: 4px;
+                    }
+
+                    &:hover {
+                        color: #a7b3ab;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fluid {
+    background-color: whitesmoke;
+    padding: 15px;
+    transition: 1s;
+    top: 30px;
+
+
+
+    .book {
+        img {
+            width: 100%;
+            height: 400px;
+        }
+
+        .book-info {
+
+            height: 35px;
+            background-color: #d14031;
+            text-align: center;
+
+
+
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+.category {
+
+    &:hover {
+        .fluid {
+            opacity: 1;
+        }
+    }
+}
+
+#main-section {
+
+    height: 650px;
+
+    .items {
+
+        height: 650px;
+
+
+        .description *{
+            margin: 0 0 20px 0;
+        }
+        .description {
+
+            padding: 5px;
+
+            h1{
+                color: #d14031;
+               
+            }
+            p{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            small{
+                font-weight: bold;
+            }
+        }
+   }
+}
+
+#others{
+    background-color: #fafafa;
+
+    .cards{
+        padding: 10px;
+    }
+}
+.line{
+    width: 75px;
+    height: 3px;
+    background-color: #e12503;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+#library-section{
+
+    .book-categories{
+        margin: 0px auto;
+    }
+    
+    
+    .info-book{
+       position: relative;
+
+        .more-icon{
+           top: 175px;
+           position: absolute;
+           z-index: 9;
+           right: 10px;
+
+            .more{
+                width: 35px;
+                height: 35px;
+                background-color: red;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 16px;
+                margin-bottom: 5px;
+                z-index: 999;
+                opacity: 0;
+                transition: .8s;
+        
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+        img{
+
+           
+           height: 450px;
+           transition: .8s;
+        }
+
+        &:hover{
+            img{
+                opacity: 0.6;
+            }
+
+            .more{
+                opacity: 1;
+            }
+        }
+    }
+    .detail{
+        p{
+            margin-bottom: 10px;
+            color: #676767;
+        }
+    }
+    .detail *{
+       margin-bottom: 10px;
+    }
+}
+
+#read-section{
+    
+    height: 500px;
+
+    .read{
+        height: 500px;
+
+        .read-info{
+            width: 50%;
+
+            h2{
+                
+                color: #d14031;
+            }
+            p{
+                
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+#author-section{
+
+    .infos-book{
+        position: relative;
+ 
+         .more-icon{
+            top: 100px;
+            position: absolute;
+            z-index: 9;
+            right: 10px;
+ 
+             .more{
+                 width: 25px;
+                 height: 25px;
+                 background-color: red;
+                 border-radius: 50%;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 font-size: 10px;
+                 margin-bottom: 5px;
+                 z-index: 999;
+                 opacity: 0;
+                 transition: .8s;
+         
+                 a{
+                     color: white;
+                     text-decoration: none;
+                 }
+             }
+         }
+         img{
+            height: 300px;
+            transition: .8s;
+         }
+ 
+         &:hover{
+             img{
+                 opacity: 0.6;
+             }
+ 
+             .more{
+                 opacity: 1;
+             }
+         }
+     }
+
+     .author-image{
+        img{
+            width: 100%;
+            height: 500px;
+        }
+     }
+
+     .award-img{
+        margin-bottom: 25px;
+     }
+}
+@media screen and(min-width: 1200px) {
+    .description {
+        width: 50%;
+    }
+    .bars {
+        display: none;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+    .description{
+        width: 50%;
+    }
+
+    .pages{
+        display: none;
+    }
+    .bars {
+       margin: 0px auto;
+    }
+}
+@media screen and(min-width: 768px) {
+    h1{
+        font-size: 55px;
+    }
+    .info-book{
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+    .read-info{
+        h4{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 75px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+
+    #author-section{
+         .infos-book{
+            width: 258px;
+         }
+    }
+}
+
+@media screen and(max-width: 768px) {
+    #main-section{
+        width: 100%;
+        height: 350px;
+        background-position: center;
+
+        .items{
+            height: 300px;
+
+
+            .description {
+                
+                height: 150px;
+                background-color: rgba(255, 255, 255, 0.9);
+    
+                small{
+                    display: none;
+                }
+                p{
+                    display: none;
+                }
+                h1{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .info-book{
+        width: 70%;
+        margin: 0px auto;
+
+        img{
+            width: 100%;
+        }
+    }
+    .infos-book{
+        width: 70%;
+        margin: 0px auto;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    #read-section{
+        height: 300px;
+        
+
+        .read{
+            height: 300px;
+
+            .read-info{
+
+                h4{
+                    font-size: 20px;
+                }
+                h2{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(min-width: 568px) {
+    nav {
+        height: 100px;
+
+        .service {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    
+}
+
+@media screen and(max-width: 568px) {
+    nav {
+        flex-wrap: wrap;
+
+        & * {
+            text-align: center;
+        }
+
+        .customer-function {
+            display: flex;
+            justify-content: center;
+        }
+
+        .service {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .description{
+        width: 100%;
+    }
+}
