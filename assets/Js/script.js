@@ -1,5 +1,15 @@
 let category = document.querySelector(".category");
 let books = document.querySelector(".fluid");
+let arrow = document.querySelector(".circle");
+
+window.addEventListener("scroll",function(){
+    if(window.scrollY == 0){
+        arrow.style.opacity = "0";
+    }
+    else{
+        arrow.style.opacity = "1";
+    }
+})
 
 $(document).ready(function(){
     $(".all").show();
@@ -56,6 +66,8 @@ $(document).ready(function(){
         $(".fantacy").hide();
     })
 })
+
+
 
 $('.owl-carousel').owlCarousel({
     loop:true,
