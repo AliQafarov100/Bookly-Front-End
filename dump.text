@@ -1,0 +1,189 @@
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/shop-new-2_600x.webp" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>DONALD WILLIAM</p>
+                                <strong>Donate a Book</strong>
+                                <p><span>$100.00</span><span class="ms-2"><del>$300.00</del></span></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/shop-new-5_600x.webp" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>MICHAEL ALICE</p>
+                                <strong>Books For a Cause</strong>
+                                <p><span>$110.00</span><span class="ms-2"><del>$700</del></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/Turks.jpg" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>Murad Adji</p>
+                                <strong>History of Turks</strong>
+                                <p><span>$1799.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/Khazaria.webp" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>Lev Gumilev</p>
+                                <strong>Discover of Khazaia</strong>
+                                <p><span>$299.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/ПолынныйМойПуть.webp" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>Murad Adji</p>
+                                <strong>Sagebrushion my way</strong>
+                                <p><span>$1450.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/MartinEden.jpeg" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>Jack London</p>
+                                <strong>Martin Eden</strong>
+                                <p><span>Priceless thing</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/Les-Miserables-Img.jpg" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>Victor Hugo</p>
+                                <strong>Les Miserables</strong>
+                                <p><span>$1000.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="info-book">
+                            <div class="images">
+                                <div class="more-icon">
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-link"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="more">
+                                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                </div>
+                                <img src="assets/Image/Library/GreatSteppe.webp" alt="">
+                            </div>
+                            <div class="detail mt-3">
+                                <p>Murad Adji</p>
+                                <strong>Greate Steppe: Turk offering</strong>
+                                <p><span>$1000.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    style="border: 1px solid red; font-size: 12px;" class="text-center text-danger"

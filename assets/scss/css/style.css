@@ -53,8 +53,6 @@ nav ul li select {
 #navbars {
   width: 100%;
   background-color: #e12503;
-  position: sticky;
-  top: 0;
   z-index: 999;
   height: 60px;
 }
@@ -93,11 +91,20 @@ nav ul li select {
   color: #a7b3ab;
 }
 
+#navbars .controll:hover .fluid {
+  opacity: 1;
+}
+
 .fluid {
   background-color: whitesmoke;
   padding: 15px;
   transition: 1s;
-  top: 30px;
+  top: 65px;
+  position: absolute;
+  opacity: 0;
+  display: none;
+  left: 0px;
+  right: 0px;
 }
 
 .fluid .book img {
@@ -114,10 +121,6 @@ nav ul li select {
 .fluid .book .book-info a {
   text-decoration: none;
   color: white;
-}
-
-.category:hover .fluid {
-  opacity: 1;
 }
 
 #main-section {
@@ -453,7 +456,6 @@ nav ul li select {
 
 #footer-section {
   width: 100%;
-  height: 450px;
 }
 
 #footer-section h2 {
@@ -488,7 +490,339 @@ nav ul li select {
 }
 
 #footer-section .endl .licence {
-  height: 75px;
+  height: 50px;
+}
+
+#intro {
+  background-color: #fdefe1;
+  height: 300px;
+}
+
+#intro .write {
+  height: 300px;
+}
+
+#intro .write ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#intro .write ul li {
+  margin: 5px;
+}
+
+#intro .write ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#collection-section .booking .info-book {
+  position: relative;
+}
+
+#collection-section .booking .info-book .more-icon {
+  top: 125px;
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+}
+
+#collection-section .booking .info-book .more-icon .more {
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  z-index: 999;
+  opacity: 0;
+  transition: .8s;
+}
+
+#collection-section .booking .info-book .more-icon .more a {
+  color: white;
+  text-decoration: none;
+}
+
+#collection-section .booking .info-book img {
+  width: 100%;
+  transition: .8s;
+}
+
+#collection-section .booking .info-book:hover img {
+  opacity: 0.6;
+}
+
+#collection-section .booking .info-book:hover .more {
+  opacity: 1;
+}
+
+#collection-section .filtered {
+  padding: 15px;
+  background-color: #0000000d;
+}
+
+#collection-section .filtered .systems .system {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: .5s;
+}
+
+#collection-section .filtered .systems .system:hover {
+  color: white;
+  background-color: #d14031;
+}
+
+#collection-section .bookSlider .btns {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#collection-section .bookSlider .btns .btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: #d14031;
+  margin: 10px;
+  color: white;
+}
+
+#collection-section .bookSlider .sliderItem {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+#collection-section .bookSlider .sliderItem .sliders {
+  transition: all ease 1s;
+  position: relative;
+  left: 0;
+}
+
+#collection-section .bookSlider .slider-book {
+  position: relative;
+}
+
+#collection-section .bookSlider .slider-book .more-icon {
+  top: 100px;
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+}
+
+#collection-section .bookSlider .slider-book .more-icon .more {
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  z-index: 999;
+  opacity: 0;
+  transition: .8s;
+}
+
+#collection-section .bookSlider .slider-book .more-icon .more a {
+  color: white;
+  text-decoration: none;
+}
+
+#collection-section .bookSlider .slider-book img {
+  width: 100%;
+  transition: .8s;
+}
+
+#collection-section .bookSlider .slider-book:hover img {
+  opacity: 0.6;
+}
+
+#collection-section .bookSlider .slider-book:hover .more {
+  opacity: 1;
+}
+
+#collection-section .category ul {
+  padding-left: 0;
+}
+
+#collection-section .category ul li {
+  list-style: none;
+}
+
+#collection-section .category ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#collection-section .category .plus-minus {
+  position: relative;
+}
+
+#collection-section .category .plus-minus .btn {
+  position: absolute;
+}
+
+#collection-section .category .cat {
+  transition: 1s;
+  color: black;
+}
+
+#collection-section .category .cat:hover {
+  color: #d14031;
+}
+
+#collection-section .filter {
+  border: 1px solid gray;
+  margin-top: 15px;
+  transition: .6s;
+  padding: 5px;
+}
+
+#collection-section .filter a {
+  text-decoration: none;
+  color: black;
+}
+
+#collection-section .filter:hover {
+  background-color: #d14031;
+}
+
+#collection-section .filter:hover a {
+  color: white;
+}
+
+#collection-section .byPrice .price .prices {
+  border: 1px solid gray;
+  margin-top: 15px;
+  transition: .6s;
+  padding: 5px;
+}
+
+#collection-section .byPrice .price .prices a {
+  text-decoration: none;
+  color: black;
+}
+
+#collection-section .byPrice .price .prices:hover {
+  background-color: #d14031;
+}
+
+#collection-section .byPrice .price .prices:hover a {
+  color: white;
+}
+
+#collection-section .format .formats a {
+  font-size: 15px;
+}
+
+#product-section .bookSlider .btns {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#product-section .bookSlider .btns .btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: #d14031;
+  margin: 10px;
+  color: white;
+}
+
+#product-section .bookSlider .sliderItem {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+#product-section .bookSlider .sliderItem .sliders {
+  transition: all ease 1s;
+  position: relative;
+  left: 0;
+}
+
+#product-section .bookSlider .slider-book {
+  position: relative;
+}
+
+#product-section .bookSlider .slider-book .more-icon {
+  top: 100px;
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+}
+
+#product-section .bookSlider .slider-book .more-icon .more {
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  z-index: 999;
+  opacity: 0;
+  transition: .8s;
+}
+
+#product-section .bookSlider .slider-book .more-icon .more a {
+  color: white;
+  text-decoration: none;
+}
+
+#product-section .bookSlider .slider-book img {
+  width: 100%;
+  transition: .8s;
+}
+
+#product-section .bookSlider .slider-book:hover img {
+  opacity: 0.6;
+}
+
+#product-section .bookSlider .slider-book:hover .more {
+  opacity: 1;
+}
+
+#product-section .best-sellers {
+  width: 100%;
+  height: 300px;
+}
+
+#product-section .best-sellers img {
+  width: 100%;
+  height: 300px;
+}
+
+#product-section .best-sellers .details {
+  height: 300px;
+}
+
+#product-section .product-detail img {
+  width: 100%;
+  height: 550px;
+}
+
+#product-section .product-detail a {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1200px) {
@@ -554,6 +888,12 @@ nav ul li select {
     font-weight: normal;
     color: #676767;
   }
+  .booking img {
+    height: 400px;
+  }
+  .slider-book img {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -579,7 +919,7 @@ nav ul li select {
     font-size: 20px;
   }
   .info-book {
-    width: 70%;
+    width: 100%;
     margin: 0px auto;
   }
   .info-book img {
@@ -650,19 +990,6 @@ body .circle {
 .pagination .page-link:hover {
   color: white;
   background-color: black;
-}
-
-#collection-section .category ul {
-  padding-left: 0;
-}
-
-#collection-section .category ul li {
-  list-style: none;
-}
-
-#collection-section .category ul li a {
-  text-decoration: none;
-  color: black;
 }
 
 @media screen and (min-width: 568px) {

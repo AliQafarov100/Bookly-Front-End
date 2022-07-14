@@ -3,7 +3,6 @@ let bookItem = document.querySelectorAll(".slider");
 let sliders = document.querySelector(".sliders");
 let count = 0;
 let width;
-let arrow = document.querySelector(".circle");
 let list = document.querySelector(".list");
 let book = document.querySelector(".row .booking");
 let grid = document.querySelector(".grid");
@@ -15,15 +14,6 @@ list.addEventListener("click",function(){
 grid.addEventListener("click",function(){
     book.classList.add("row");
 });
-
-window.addEventListener("scroll",function(){
-    if(window.scrollY == 0){
-        arrow.style.opacity = "0";
-    }
-    else{
-        arrow.style.opacity = "1";
-    }
-})
 
 function init(){
     
