@@ -66,6 +66,26 @@ nav ul li select {
   margin: 0px auto;
 }
 
+#navbars .navbar .pages .page-controller .site-pages {
+  width: 10%;
+  background-color: whitesmoke;
+  padding: 15px;
+  position: absolute;
+  top: 60px;
+  opacity: 0;
+  transition: 0.7s;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+#navbars .navbar .pages .page-controller .site-pages a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbars .navbar .pages .page-controller:hover .site-pages {
+  opacity: 1;
+}
+
 #navbars .navbar ul {
   padding-left: 0px;
 }
@@ -993,6 +1013,80 @@ nav ul li select {
   border-radius: 0px;
 }
 
+#faq-section .questions {
+  padding: 15px;
+}
+
+#faq-section .questions .quest .minus-plus {
+  position: relative;
+}
+
+#faq-section .questions .quest .minus-plus .btn {
+  position: absolute;
+  color: white;
+}
+
+#faq-section .text {
+  background-color: wheat;
+  padding: 15px;
+}
+
+#about-section .backgraund {
+  width: 100%;
+  background-color: #d14031;
+}
+
+#about-section .backgraund img {
+  width: 100%;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+#about-section .drople i {
+  font-size: 30px;
+  color: #d14031;
+}
+
+#about-section .reverse * {
+  text-align: right;
+}
+
+#team-section img {
+  width: 100%;
+}
+
+#team-section .team-image .team-media {
+  position: relative;
+  top: 350px;
+  bottom: 0px;
+  left: 50px;
+  opacity: 0;
+  z-index: 10;
+  transition: 1s;
+}
+
+#team-section .team-image .team-media .brand {
+  width: 25px;
+  height: 25px;
+  background-color: #d14031;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+#team-section .team-image:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+#team-section .team-image:hover .team-media {
+  opacity: 1;
+}
+
 @media screen and (min-width: 1200px) {
   .description {
     width: 50%;
@@ -1017,6 +1111,9 @@ nav ul li select {
 @media screen and (max-width: 992px) {
   .product-detail .info {
     margin-top: 25px;
+  }
+  .reverse {
+    flex-direction: column-reverse;
   }
 }
 
@@ -1180,6 +1277,51 @@ body .circle {
     display: flex;
     justify-content: flex-end;
   }
+}
+
+#collection-section .info-book {
+  position: relative;
+}
+
+#collection-section .info-book .more-icon {
+  top: 125px;
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+}
+
+#collection-section .info-book .more-icon .more {
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  z-index: 999;
+  opacity: 0;
+  transition: .8s;
+}
+
+#collection-section .info-book .more-icon .more a {
+  color: white;
+  text-decoration: none;
+}
+
+#collection-section .info-book img {
+  width: 100%;
+  transition: .8s;
+}
+
+#collection-section .detail a {
+  text-decoration: none;
+  color: black;
+}
+
+#collection-section .but {
+  border-radius: 0px;
 }
 
 @media screen and (max-width: 568px) {
