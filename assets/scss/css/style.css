@@ -476,6 +476,9 @@ nav ul li select {
 
 #footer-section {
   width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 #footer-section h2 {
@@ -496,9 +499,13 @@ nav ul li select {
 }
 
 #footer-section .social {
-  width: 50%;
-  margin: 25px auto;
+  width: 100%;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+#footer-section .social .social-icons {
+  margin: 0px auto;
 }
 
 #footer-section .social i {
@@ -511,6 +518,10 @@ nav ul li select {
 
 #footer-section .endl .licence {
   height: 50px;
+}
+
+#footer-section .endl .licence p {
+  margin-bottom: 0px;
 }
 
 #intro {

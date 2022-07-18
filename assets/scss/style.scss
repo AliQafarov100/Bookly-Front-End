@@ -545,6 +545,11 @@ nav {
 
 #footer-section {
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+
 
     h2 {
         color: #d14031;
@@ -564,12 +569,17 @@ nav {
     }
 
     .social {
-        width: 50%;
-        margin: 25px auto;
+        width: 100%;
         text-align: center;
+        flex-wrap: wrap;
+
+        .social-icons{
+            margin: 0px auto;
+        }
 
         i {
-            margin: 20px;
+           
+           margin: 20px;
         }
     }
 
@@ -578,6 +588,10 @@ nav {
 
         .licence {
             height: 50px;
+
+            p{
+                margin-bottom: 0px;
+            }
         }
     }
 }
