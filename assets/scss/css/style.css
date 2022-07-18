@@ -1327,6 +1327,10 @@ nav ul li select {
     width: 100%;
     margin-top: 25px;
   }
+  .subscribes {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1339,6 +1343,10 @@ nav ul li select {
   }
   .submit-btn .btn-sub {
     width: 100%;
+  }
+  .subscribes {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
